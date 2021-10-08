@@ -18,6 +18,8 @@ cp dragonstooth.yml /etc/ood/config/clusters.d/dragonstooth.yml
 cp huckleberry.yml /etc/ood/config/clusters.d/huckleberry.yml
 cp infer.yml /etc/ood/config/clusters.d/infer.yml
 cp tinkercliffs.yml /etc/ood/config/clusters.d/tinkercliffs.yml
+
+## more cluster configs, only need these b/c we are using bash overrides for all slurm commands
 mkdir /etc/ood/config/clusters.d/slurm_ca
 cp ./slurm_ca/* /etc/ood/config/clusters.d/slurm_ca/
 mkdir /etc/ood/config/clusters.d/slurm_confs
