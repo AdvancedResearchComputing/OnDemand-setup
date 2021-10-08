@@ -1,0 +1,4 @@
+OOD_SSH_WRAPPER=/etc/ood/config/clusters.d/ssh.sh
+OOD_SSHHOST_ALLOWLIST="tc[0-9][0-9][0-9]:tc-intel[0-9][0-9][0-9]:tc-hm[0-9][0-9][0-9]:inf[0-9][0-9][0-9]:ca[0-9][0-9][0-9]:dt[0-9][0-9][0-9]:hu[0-9][0-9][0-9]"
+OOD_DEFAULT_SSHHOST=tinkercliffs1.arc.vt.edu
+#*.arc.vt.edu"

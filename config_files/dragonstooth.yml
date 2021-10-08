@@ -1,0 +1,25 @@
+---
+v2:
+  metadata:
+    title: "Dragonstooth"
+    url: "https://www.arc.vt.edu/computing/dragonstooth"
+  login:
+    host: "dragonstooth1.arc.vt.edu"
+  job:
+    adapter: "slurm"
+    cluster: "dragonstooth"
+    bin: "/etc/ood/config/clusters.d/slurm_dt"
+##    conf: "/etc/ood/config/clusters.d/slurm/slurm-dragonstooth.conf"
+  batch_connect:
+    basic:
+      script_wrapper: |
+        module purge
+        %s
+      set_host: "host=$(hostname -s)"
+    vnc:
+      script_wrapper: |
+        module purge
+        export PATH="/opt/TurboVNC/bin:$PATH"
+        export WEBSOCKIFY_CMD="/usr/bin/websockify"
+        %s
+      set_host: "host=$(hostname -s)"

@@ -1,0 +1,26 @@
+---
+v2:
+  metadata:
+    title: "Cascades"
+    url: "https://www.arc.vt.edu/computing/cascades"
+  login:
+    host: "cascades1.arc.vt.edu"
+  job:
+    adapter: "slurm"
+    cluster: "cascades"
+    bin: "/etc/ood/config/clusters.d/slurm_ca"
+##    conf: "/etc/ood/config/clusters.d/slurm/slurm-cascades.conf"
+  batch_connect:
+    basic:
+      script_wrapper: |
+        module purge
+        %s
+      set_host: "host=$(hostname -s)"
+    vnc:
+      script_wrapper: |
+        module purge
+        export PATH="/opt/TurboVNC/bin:$PATH"
+        export WEBSOCKIFY_CMD="/usr/bin/websockify"
+        %s
+      set_host: "host=$(hostname -s)"
+

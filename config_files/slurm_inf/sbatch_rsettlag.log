@@ -1,0 +1,43 @@
+t
+sbatch 20210202_163051: Supplied args=(-A openondemand2 --export NONE --parsable -M infer)
+sbatch 20210202_163257: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 main_job.sh -A openondemand2 --export NONE --parsable -M infer)
+sbatch 20210202_163355: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_163416: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_163714: Supplied args=(--help)
+sbatch 20210202_163857: Supplied args=(--help)
+sbatch 20210202_163931: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164131: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164139: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable main_job.sh)
+sbatch 20210202_164200: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164413: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164433: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164443: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable main_job.sh)
+sbatch 20210202_164641: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export=NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164711: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export=NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_164752: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_165022: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --parsable ./main_job.sh)
+sbatch 20210202_165051: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable ./main_job.sh)
+sbatch 20210202_165229: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable ./main_job.sh)
+sbatch 20210202_165245: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_165836: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_170128: Supplied args=(--partition=normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_170141: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+sbatch 20210202_190752: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_190955: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_191017: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer~/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_191024: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_191045: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer1 /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_191108: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_192055: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_192112: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_205455: Supplied args=(--partition=t4_normal_q --account=openondemand2 --time=00:01:00 -A openondemand2 --export NONE --parsable -M infer /home/rsettlag/ondemand/data/sys/myjobs/projects/default/23/main_job.sh)
+/home/rsettlag/ondemand/data/sys/myjobs/projects/default/23
+sbatch 20210202_205726: Supplied args=(-A openondemand2 --export NONE --parsable)

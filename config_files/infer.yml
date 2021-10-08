@@ -1,0 +1,25 @@
+---
+v2:
+  metadata:
+    title: "Infer"
+  login:
+    host: "infer1.arc.vt.edu"
+  job:
+    adapter: "slurm"
+##    cluster: "infer"
+    bin: "/etc/ood/config/clusters.d/slurm_inf"
+#    conf: "/etc/ood/config/clusters.d/slurm/slurm-infer.conf"
+
+  batch_connect:
+    basic:
+#      script_wrapper: |
+#        module purge        
+#        %s
+
+
+    #vnc:
+    #  script_wrapper: |
+    #    module purge
+    #    export PATH="/usr/local/turbovnc/bin:$PATH"
+    #    export WEBSOCKIFY_CMD="/usr/local/websockify/run"
+    #    %s

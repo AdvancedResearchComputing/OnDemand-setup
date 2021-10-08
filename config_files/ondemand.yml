@@ -1,0 +1,18 @@
+# /etc/ood/config/ondemand.d/ondemand.yml
+pinned_apps:
+  - 'sys/bc_*'
+
+pinned_apps_menu_length: 6        # the default number of items in the dropdown menu list
+pinned_apps_group_by: category    # defaults to nil, no grouping
+
+dashboard_layout:
+  rows:
+    - columns:
+      - width: 8
+        widgets:
+          - pinned_apps
+          - motd
+      - width: 4
+        widgets:
+#          - xdmod_widget_job_efficiency
+#          - xdmod_widget_jobs

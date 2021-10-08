@@ -1,0 +1,28 @@
+---
+v2:
+  metadata:
+    title: "TinkerCliffs"
+    url: "https://arc.vt.edu/tinkercliffs/"
+    hidden: false
+  login:
+    host: "tinkercliffs2.arc.vt.edu"
+  job:
+    adapter: "slurm"
+    cluster: "tinkercliffs"
+#    conf: "/etc/ood/config/clusters.d/slurm/slurm-tinkercliffs.conf"
+    bin: "/etc/ood/config/clusters.d/slurm_tc"
+    version: "20.02.3"
+
+  batch_connect:
+    basic:
+#      script_wrapper: |
+#        module purge        
+#        %s
+
+
+    #vnc:
+    #  script_wrapper: |
+    #    module purge
+    #    export PATH="/usr/local/turbovnc/bin:$PATH"
+    #    export WEBSOCKIFY_CMD="/usr/local/websockify/run"
+    #    %s

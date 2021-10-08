@@ -1,0 +1,18 @@
+DEBUG=1
+
+## need to provide the correct location if we want to use
+INSTALL_ROOT="/etc/ood/config/clusters.d/slurm_inf"
+#SERVER_IP=$(cat $INSTALL_ROOT/masternode.lst)
+SERVER_IP=infer1.arc.vt.edu
+current_dir=$PWD
+
+if [[ $DEBUG == 1  ]]
+then
+	echo $current_dir >> /etc/ood/config/clusters.d/slurm_inf/sbatch_${USER}.log
+	echo "$(basename $0) $(date +%Y%m%d_%H%M%S): Supplied args=($@)" >> /etc/ood/config/clusters.d/slurm_inf/sbatch_${USER}.log
+fi
+
+ssh -4 $SERVER_IP "cd $current_dir; sbatch $@"
+
+EXIT_CODE=$(echo $?)
+exit $EXIT_CODE
